@@ -1,0 +1,115 @@
+body
+{
+	width:100%;
+	margin:0px auto;
+	style="background-color: transparent;"
+	background:transparent;
+	background-image:url("../IMAGES/bg-2.gif");
+}
+#back
+{
+	
+}
+	
+/*h1{
+	FLOAT:left;
+	text-align:right;
+	padding:20px;
+}*/
+#h1
+{
+	FLOAT:left;
+	height:150px;
+	width:100%;
+	text-align:left;
+	color:white;
+}
+#h1
+{
+	FLOAT:left;
+	height:150px;
+	width:100%;
+	text-align:left;
+	color:white;
+}
+#a
+{
+	float:right;
+	text-align:center;
+	margin-right:500px;
+}
+#h2
+{
+	height:100px;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	color:white;
+}
+#h3
+{
+	height:140px;
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	color:white;
+}
+#box1
+{
+	height:210px;
+	width:32%;
+	text-align:center;
+	background-color:white;
+	FLOAT:left;
+	margin-right:2%;
+}
+#box1:hover
+{ 
+	background-color:grey;
+	color:yellow;
+}
+#box2
+{
+	height:210px;
+	width:32%;
+	background-color:white;
+	FLOAT:left;
+	text-align:center;
+	margin-right:2%;
+	color:black;
+}
+#box2:hover
+{ 
+	background-color:grey;
+	color:yellow;
+}
+#box3
+{
+	height:210px;
+	width:32%;
+	background-color:white;
+	text-align:center;
+	FLOAT:right;
+}
+#box3:hover
+{ 
+	background-color:grey;
+	color:yellow;
+}
+#footer
+{
+	height:100px;
+	width:100%;
+	background-color:purple;
+	clear:both;
+	color:white;
+	text-align:center;
+}
+.fa
+{
+   color:white;
+   background-color:blue;
+   padding:5px;
+   font-size:20px;
+   border-radius:10px;
+}
