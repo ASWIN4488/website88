@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@300&display=swap');
+body
+{
+    /*background-image: linear-gradient(#131204, #a0b2b1);*/
+	background-image:url("../IMAGES/bg3.gif");
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    scroll-behavior:smooth;
+}
+html {
+    scroll-behavior:smooth;
+  }
+/*body,*,*:before,*:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }*/
+    .container1
+    {
+        height: 50%;
+        width:540px;
+        padding-bottom: 10px;
+        margin:0 auto
+    }
+    .bar {
+    background-color: rgb(97, 228, 245);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    }
+    .bar li {
+    height: 100%;
+    width: 120px;
+    border-right: 1px solid rgb(69, 210, 235);
+    }
+    .bar li a {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    }
+    .bar .has-dropdown ul li a{
+    padding: 12px 0;
+    }
+    .bar li a:hover {
+    background-color: rgb(97, 235, 69);
+    }
+    .bar li a.active {
+    background-color: rgb(17, 168, 179);
+    color: white;
+    }
+    .dropdown {
+    background-color: rgb(18, 171, 182);
+    padding: 0;
+    list-style: none;
+    display: none;
+    }
+    .bar li.has-dropdown:hover .dropdown {
+    display: block;
+    }
+    .custom-loader {
+        width: 60px;
+        height: 60px;
+        border:15px solid #E4E4ED;
+        border-radius: 50%;
+        position: relative;
+        transform:rotate(45deg);
+      }
+      .custom-loader::after {
+        content: "";
+        position: absolute;
+        inset:-15px;
+        border-radius: 50%;
+        border:15px solid #6917FF;
+        animation: p8 2s infinite linear;
+      }
+      
+      @keyframes p8 {
+          0%   {clip-path:polygon(50% 50%,0 0,0    0,0    0   ,0    0   ,0    0   )}
+          25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0   ,100% 0   ,100% 0   )}
+          50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+          75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    100%)}
+          100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    0   )}
+      }
+    /*.center
+    {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 15%;
+    }*/
+    .center
+    {
+         /*border-image: url("../IMAGES/bg3.gif") 25 25 round;
+         transform: perspective(1000px) rotateY(360deg);*/
+         margin-top: 10%;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         border: 10px solid rgb(255, 255, 255);
+         border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+         width: 20vw;
+         height: 40vh;
+         margin: 4em auto;
+        }
+        .center:hover
+        {
+             display: block;
+            margin-left: auto;
+            margin-right: auto;
+            outline: solid 5px #f7760c;
+            transition: outline 0.6s linear;
+            width: 20vw;
+            height: 40vh;
+            margin: 4em auto;
+        }
+        .aboutme
+        {
+            font-size:40px;
+        }
+    
+    .nm
+    {
+        text-align:center;
+    }
+    .skill
+    {
+        text-align: center;
+        font-size:60px;
+        color: black;
+    }
+    .s11
+    {
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    .s1
+    {
+        background-color: #76d43f;
+        padding: 10px;
+        color: #f8f7f6;
+        text-align:center;
+        padding:70px;
+        margin:40px;
+        float:left;
+        clear:both;
+
+    }
+    .s1:hover
+    {
+        border: .2rem solid var(--bg-color);
+        transform: scale(1.02);
+        border-radius: 2rem;
+        text-align: center;
+        transition: .5s ease;
+
+    }
+    .s2
+    {
+        background-color: #76d43f;
+        padding: 20px;
+        color: #f8f7f6;
+        text-align:center;
+        padding:70px;
+        margin:40px;
+        float:left;
+
+    }
+    .s2:hover
+    {
+        border: .2rem solid var(--bg-color);
+        transform: scale(1.02);
+        border-radius: 2rem;
+        text-align: center;
+        transition: .5s ease;
+
+    }
+    .contact
+    {
+        text-align: center;
+    }
+    .title
+    {
+        clear: both;
+        text-align:center;
+        font-size:50px;
+        color: black;
+    }
+    .ws
+    {
+        scroll-behavior:smooth;
+        float:left;
+        width:75;
+        height:75%;
+        padding-left: 7.5%;
+        margin-bottom: 2%;
+    }
+    .ws:hover
+    {
+        scroll-behavior:smooth;
+        float:left;
+        padding-left: 7.5%;
+        margin-bottom: 2%;
+    }
+    .Ws
+    {
+        float:left;
+        width:75;
+        height:75%;
+        padding-left: 7.5%;
+        margin-bottom: 2%;
+    }
+   
+/*@media screen and (max-width:640px){
+        .project .title{
+            font-size: 35px;
+            font-weight: 500;
+        }
+        .project .content{
+            font-size: 19px;
+            font-weight: 500;
+        }
+    }*/        
+    #footer
+    {
+        height:100px;
+        width:100%;
+        /*min-width:600px;
+        max-width:1000px;*/
+        background-color:rgba(35, 209, 137, 0.822);
+        clear:both;
+        color:rgb(255, 255, 255);
+        text-align:center;
+    }
+    .fa
+    {
+       color:white;
+       background-color:rgb(30, 43, 224);
+       padding:5px;
+       font-size:20px;
+       border-radius:10px;
+    }
