@@ -333,14 +333,14 @@ html {
         float:center;
         margin-left:25%;
     }
-    }    
+    }*/
     #footer
     {
         height:100px;
         width:100%;
         /*min-width:600px;
         max-width:1000px;*/
-/*  background-color:rgba(35, 209, 137, 0.822);
+  background-color:rgba(35, 209, 137, 0.822);
         clear:both;
         color:rgb(255, 255, 255);
         text-align:center;
@@ -352,4 +352,4 @@ html {
        padding:5px;
        font-size:20px;
        border-radius:10px;
-    }*/
+    }
